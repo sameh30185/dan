@@ -1,0 +1,133 @@
+/*
+Theme Name: Impreza Child
+Template: Impreza
+Version: 1.0
+Author:	UpSolution
+Theme URI: http://impreza.us-themes.com/
+Author URI: http://us-themes.com/
+*/
+
+/*Add your own styles here:*/
+
+@font-face {
+    font-family: 'FlexoW01';
+    src: url('fonts/FlexoW01-Bold.eot');
+    src: url('fonts/FlexoW01-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FlexoW01-Bold.woff2') format('woff2'),
+        url('fonts/FlexoW01-Bold.woff') format('woff'),
+        url('fonts/FlexoW01-Bold.svg#FlexoW01-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FlexoW01';
+    src: url('fonts/FlexoW01-Regular.eot');
+    src: url('fonts/FlexoW01-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FlexoW01-Regular.woff2') format('woff2'),
+        url('fonts/FlexoW01-Regular.woff') format('woff'),
+        url('fonts/FlexoW01-Regular.svg#FlexoW01-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html[lang="en_US"] h1,html[lang="en_US"] h2,html[lang="en_US"] h3,html[lang="en_US"] h4,html[lang="en_US"] h5,html[lang="en_US"] h6,html[lang="en_US"] p,html[lang="en_US"] a,html[lang="en_US"] input,html[lang="en_US"] text-area,html[lang="en_US"] span {
+    font-family: 'FlexoW01' ;
+}
+html[lang="en_US"] .header_hor .ush_menu_1.type_desktop .w-nav-list.level_1>.menu-item>a,html[lang="en_US"] 
+.w-nav.type_desktop .w-nav-anchor:not(.level_1),html[lang="en_US"] .l-header a
+{
+    font-family: 'FlexoW01';
+}
+
+input.es_required_field.es_txt_email.ig_es_form_field_email {
+    border-radius: 25px 0 0 25px !important;
+    width: 60% !important;
+    float: left;
+    color: #a7a7a7 !important;
+}
+.rtl input.es_required_field.es_txt_email.ig_es_form_field_email {
+    border-radius: 0 25px 25px 0 !important;
+    float: right;
+}
+input#es_subscription_form_submit_1601736882{
+    border-radius: 25px 0 0 25px !important;
+    background: rgb(245,139,32) !important;
+    background: linear-gradient(90deg, rgba(245,139,32,1) 0%, rgba(234,49,39,1) 100%) !important;
+    height: 48px;
+    text-transform: uppercase !important;
+    border: 0 !important;
+}
+.es_subscription_form_submit {
+    border-radius: 0 !important;
+}
+.pro-button .w-btn-wrapper.width_auto.align_center {
+    display: inline;
+    margin: 0 10px;
+}
+.pro-text p, .pro-text h2  {
+    margin: 0 !important;
+    padding: 0;
+}
+.about h1 {
+    padding-top: 0 !important;
+}
+.about h3 {
+    margin: 0;
+    padding: 0 !important;
+    background-image: url(http://dansat.cc/new-dan/wp-content/uploads/2020/10/h.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 47px !important;
+}
+.pro-posts h1 {
+    margin: 0;
+    padding: 0 !important;
+    background-image: url(http://dansat.cc/new-dan/wp-content/uploads/2020/10/h.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 75px !important;
+}
+.footer-menu li.menu-item.wpml-ls-slot-17.wpml-ls-item.wpml-ls-item-ar.wpml-ls-menu-item.wpml-ls-first-item.wpml-ls-last-item.menu-item-type-wpml_ls_menu_item.menu-item-object-wpml_ls_menu_item.menu-item-wpml-ls-17-ar,.footer-menu li.menu-item.wpml-ls-slot-17.wpml-ls-item.wpml-ls-item-en.wpml-ls-menu-item.wpml-ls-first-item.wpml-ls-last-item.menu-item-type-wpml_ls_menu_item.menu-item-object-wpml_ls_menu_item.menu-item-wpml-ls-17-en {
+    display: none;
+}
+.gallery-dan h2.w-post-elm.post_title.usg_post_title_1.entry-title.color_link_inherit a {
+    padding: 5px 5px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-family: ui-sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+body.rtl.customize-support div#wpsc_md_filters {
+    float: right !important;
+}
+article.attachment.type-attachment.status-inherit.hentry .w-grid-item-h {
+    border: solid .5px #8c8989;
+    margin: 0px;
+    padding: 10px;
+}
+.gallery-tv a.w-gallery-item {
+    border: solid 1px #c7c7c7;
+    padding: 10px !important;
+}
+.w-gallery-item-title {
+    font-weight: bold;
+}
+.w-post-elm.post_title.usg_post_title_1.entry-title{
+	font-weight:bold;
+}
+.w-vwrapper.usg_vwrapper_1 {
+    text-align: center;
+    font-family: ui-sans-serif;
+    font-size: 18px;
+	font-weight:bold;
+}
+.w-post-elm.post_image.usg_post_image_1.has_ratio div {
+    padding: 0 !important;
+}
+.w-post-elm.has_ratio img {
+	position: static !important;
+}
